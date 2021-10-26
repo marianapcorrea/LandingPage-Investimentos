@@ -3,7 +3,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 header {
-    background: linear-gradient(#ced0cbff, #00006bb5);
+    background: linear-gradient(#ced0cbff, #0f3007b5);
 } 
 
 .banner img {
@@ -16,9 +16,14 @@ header {
 }
 
 .conteudo {
+    
+    background: linear-gradient(#0f3007b5, #1f740ab5), url(imagens/background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     max-width: 1080px;
     overflow: hidden;
     display: flex;
+    height: 500px;
 }
 
 .texto {
