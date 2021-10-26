@@ -15,6 +15,18 @@ header {
     margin-right: auto;
 }
 
-img {
+.conteudo {
+    max-width: 1080px;
+    overflow: hidden;
+    display: flex;
+}
+
+.texto {
+}
+
+.conteudo form {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
 
 }
