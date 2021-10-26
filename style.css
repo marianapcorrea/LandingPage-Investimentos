@@ -3,7 +3,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 header {
-    background: linear-gradient(#1d3b23b5, #2c6a38);
+    background: linear-gradient(#2282edb5, #2c2c6a);
 } 
 
 .banner img {
@@ -16,7 +16,7 @@ header {
 }
 
 main {
-    background: linear-gradient(#2c6a38, #1d3b23b5), 
+    background: linear-gradient(#2c2c6a , #2282edb5), 
     url(imagens/background.png);
     background-position: center;
     background-size: contain;
@@ -29,15 +29,21 @@ main {
     overflow: hidden;
     display: flex;
     height: 500px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .texto h2 {
     color: #9eee00;
 }
 
-.conteudo form {
+.texto p {
+    color: #ffff;
+}
+
+.formulario {
     float: left;
     width: 50%;
     box-sizing: border-box;
-
+    background: #67d2fe;
 }
