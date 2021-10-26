@@ -1,9 +1,20 @@
-.header {
-    max-width: 180px;
-    width: 100%;
-    margin: 0 auto;
-    display: block;
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
-.banner{
+header {
+    background: linear-gradient(#ced0cbff, #00006bb5);
+} 
+
+.banner img {
+    max-width: 380px;
     width: 100%;
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+
 }
