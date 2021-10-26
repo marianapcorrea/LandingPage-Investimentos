@@ -3,7 +3,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 header {
-    background: linear-gradient(#ced0cbff, #0f3007b5);
+    background: linear-gradient(#1d3b23b5, #2c6a38);
 } 
 
 .banner img {
@@ -15,18 +15,24 @@ header {
     margin-right: auto;
 }
 
-.conteudo {
-    
-    background: linear-gradient(#0f3007b5, #1f740ab5), url(imagens/background.png);
+main {
+    background: linear-gradient(#2c6a38, #1d3b23b5), 
+    url(imagens/background.png);
+    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    max-width: 1080px;
+}
+
+.conteudo {
+    margin: auto;
+    max-width: 80%;
     overflow: hidden;
     display: flex;
     height: 500px;
 }
 
-.texto {
+.texto h2 {
+    color: #9eee00;
 }
 
 .conteudo form {
