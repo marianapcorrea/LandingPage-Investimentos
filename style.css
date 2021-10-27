@@ -58,7 +58,8 @@ main {
     border-radius: 15px;
     border:#2c3f63 solid 3px;
     box-shadow: 7px 10px 10px #2c3f63;
-    margin:  auto;
+    margin:  auto 40px auto 0;
+    padding: 20px 0;
 }
 
 .formulario input, .formulario select {
@@ -77,13 +78,27 @@ main {
     font-size: 12px;
     text-align: center;
     display: block;
-}
-
-#contato{
-    color: white;
     font-weight: bold;
-    text-align: start;
-    padding-left: 35px;
     padding-top: 15px;
 }
 
+.checkbox input, .checkbox label{
+    width: auto;
+    display: inline;
+    padding: 20px 0;
+} 
+
+#contato{
+    color: white;
+    text-align: start;
+    padding-left: 40px;
+    font-weight: bolder;
+}
+
+.formulario input[type="submit"] {
+    background-color: #2c3f63;    
+    border:white solid 1px;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
