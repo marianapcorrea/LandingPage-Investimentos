@@ -26,15 +26,20 @@
             <form class="formulario">
                 <input type="text" name="nome" placeholder="Nome" required><!-- required torna obrigatório o preenchimento do campo-->
                 <input type="email" name="email" placeholder="E-mail" required>
-                <input type="number" name="tel" placeholder="Telefone" required> 
-                <label>Preferência de contato:</label>
-                <select name="contato" required>
-                    <option>E-mail</option>
-                    <option>Telefone - Período matutino</option>
-                    <option>Telefone - Período vespertino</option>
-                </select>
-                <label><input type="checkbox" name="aceite"> Aceito receber comunicações.</label>
-                <input type="submit" name="enviar" value="Enviar">
+                <input type="number" name="tel" placeholder="Telefone" required>
+                
+                <label>Preferência de contato: 
+                    <select name="contato" required>
+                        <option>E-mail</option>
+                        <option>Telefone - Período matutino</option>
+                        <option>Telefone - Período vespertino</option>
+                    </select>
+                </label>
+
+                <label> Aceito receber comunicações: <input type="checkbox" name="aceite"></label>
+                
+                <input type="submit" name="enviar" value="Enviar"> 
+                
             </form>    
         </div>
 
