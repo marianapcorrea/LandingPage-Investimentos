@@ -104,3 +104,7 @@ header {
     font-weight: bolder;
 }
 
+#texto-complementar {
+    background: linear-gradient( #2282edb5, #2c2c6a);
+    height: 500px;
+}
