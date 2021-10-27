@@ -26,9 +26,14 @@ main {
 .conteudo {
     margin: auto;
     max-width: 80%;
+    height: fit-content;
     overflow: hidden;
     display: flex;
     height: 500px;
+    
+}
+.texto {
+    margin: 15% auto;
     text-align: center;
     font-weight: bold;
 }
@@ -43,7 +48,32 @@ main {
 
 .formulario {
     float: left;
-    width: 50%;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
     box-sizing: border-box;
     background: #5eb4d7;
+    border-radius: 15px;
+    border:#2c3f63 solid 3px;
+    box-shadow: 7px 10px 10px #2c3f63;
+    margin:  auto;
+}
+
+.formulario input, .formulario select {
+    width: 80%;
+    margin: 8px;
+    padding: 10px ;
+    border-radius: 20px;
+    border: transparent;
+}
+
+.formulario select {
+    width: 50%;
+}
+
+.formulario label {
+    
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
 }
