@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    min-width: 600px;
 }
 header {
     background: linear-gradient(#2282edb5, #2c2c6a);
@@ -25,7 +26,7 @@ main {
 
 .conteudo {
     margin: auto;
-    max-width: 80%;
+    max-width: 900px;;
     height: fit-content;
     overflow: hidden;
     display: flex;
@@ -33,7 +34,7 @@ main {
     
 }
 .texto {
-    margin: 15% auto;
+    margin:  10%;
     text-align: center;
     font-weight: bold;
 }
@@ -49,6 +50,7 @@ main {
 .formulario {
     float: left;
     width: fit-content;
+    min-width: 180px;
     height: fit-content;
     text-align: center;
     box-sizing: border-box;
@@ -68,12 +70,20 @@ main {
 }
 
 .formulario select {
-    width: 50%;
+    background-color: white; 
 }
 
 .formulario label {
-    
     font-size: 12px;
-    display: inline-block;
     text-align: center;
+    display: block;
 }
+
+#contato{
+    color: white;
+    font-weight: bold;
+    text-align: start;
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
