@@ -24,7 +24,7 @@
                 <P>Quer saber como? Preencha o formulário e nós entraremos em contato com você!</P>
             </article>
             <form class="formulario">
-                <input type="text" name="nome" placeholder="Nome" required><!-- required torna obrigatório o preenchimento do campo-->
+                <input type="text" name="nome" placeholder="Nome" required> <!-- required torna obrigatório o preenchimento do campo-->
                 <input type="email" name="email" placeholder="E-mail" required>
                 <input type="number" name="tel" placeholder="Telefone" required>
                 
@@ -34,8 +34,10 @@
                     <option>Telefone - Período matutino</option>
                     <option>Telefone - Período vespertino</option>
                 </select>
-
-                <label> Aceito receber comunicações: <input type="checkbox" name="aceite"></label>
+                <div class="checkbox">
+                    <label>Aceito receber comunicações:</label>
+                    <input type="checkbox" name="aceite">
+                </div>
 
                 <input type="submit" name="enviar" value="Enviar"> 
                 
