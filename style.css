@@ -5,28 +5,31 @@ body{
     font-size: 20px;
 }
 header {
-    background: linear-gradient(#0b52a1b5, #02023e);
+    background: #1a5711;
+    height: 80px;
+    padding: 20px;
 } 
 
 .banner img {
-    max-width: 380px;
-    width: 100%;
-    margin: 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100px;
+    margin: 0 10px ;
 }   
+
+.banner h1 {
+    color: white;
+    font-weight: bold;
+    font-family: 'Zen Antique', serif;
+}
 
 .conteudo {
     margin: auto;
     height: 100%;
     overflow: hidden;
     display: flex;
-    background: linear-gradient(#02023e , #0b52a1b5), 
+    background: linear-gradient(#77777c , #ffffffb5), 
     url(imagens/background.png);
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
     justify-content: center;
     
 }
@@ -41,12 +44,12 @@ header {
 }
 
 .texto h2 {
-    color: #9eee00;
+    color: #0f6d02;
     font-size: 2em;
 }
 
 .texto p {
-    color: #ffff;
+    color: #0d4106;
 }
 
 .formulario {
@@ -57,10 +60,10 @@ header {
     height: fit-content;
     text-align: center;
     box-sizing: border-box;
-    background: #5eb4d7;
+    background: #a5bba2;
     border-radius: 15px;
-    border:#2c3f63 solid 3px;
-    box-shadow: 7px 10px 10px #2c3f63;
+    border:#0d4106 solid 3px;
+    box-shadow: 7px 10px 10px #0d4106;
     margin:  5% 40px;
     padding: 20px 0;
 }
@@ -92,20 +95,20 @@ header {
 } 
 
 #contato{
-    color: white;
+    color: #0dw4106;
     text-align: start;
     padding-left: 40px;
     font-weight: bolder;
 }
 
 .formulario input[type="submit"] {
-    background-color: #2c3f63; 
+    background-color: #0d4106; 
     color: white;
     font-size: 16px;
     font-weight: bolder;
 }
 
 #texto-complementar {
-    background: linear-gradient( #0b52a1b5, #02023e);
+    background: linear-gradient( #ffffffb5, #0f6d02);
     height: 500px;
 }
