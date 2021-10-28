@@ -6,19 +6,21 @@ body{
 }
 header {
     background: #1a5711;
-    height: 80px;
-    padding: 20px;
+    height: 60px;
+    padding: 10px;
 } 
 
 .banner img {
-    width: 100px;
-    margin: 0 10px ;
+    height: 20px;
+    margin: 0 7px ;
 }   
 
 .banner h1 {
     color: white;
     font-weight: bold;
     font-family: 'Zen Antique', serif;
+    font-size: 1em;
+    
 }
 
 .conteudo {
