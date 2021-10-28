@@ -2,9 +2,10 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
     min-width: 600px;
+    font-size: 20px;
 }
 header {
-    background: linear-gradient(#2282edb5, #2c2c6a);
+    background: linear-gradient(#0b52a1b5, #02023e);
 } 
 
 .banner img {
@@ -21,7 +22,7 @@ header {
     height: 100%;
     overflow: hidden;
     display: flex;
-    background: linear-gradient(#2c2c6a , #2282edb5), 
+    background: linear-gradient(#02023e , #0b52a1b5), 
     url(imagens/background.png);
     background-position: center;
     background-size: contain;
@@ -33,7 +34,6 @@ header {
 .conteudo article{
     min-width: 200px;
     max-width: 600px;
-    padding: 30px;
     text-align: center;
     margin:  5%;
     text-align: center;
@@ -42,6 +42,7 @@ header {
 
 .texto h2 {
     color: #9eee00;
+    font-size: 2em;
 }
 
 .texto p {
@@ -105,6 +106,6 @@ header {
 }
 
 #texto-complementar {
-    background: linear-gradient( #2282edb5, #2c2c6a);
+    background: linear-gradient( #0b52a1b5, #02023e);
     height: 500px;
 }
