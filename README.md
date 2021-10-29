@@ -1,4 +1,4 @@
-Criaçao de uma landingpage de uma empresa de investimentos ficticia, que seja responsiva. 
+Criação de uma landingpage de uma empresa de investimentos ficticia, que seja responsiva. 
 
 -Atividades realizadas:
 **HTML**: HTML semântico, formulário, importação de fontes, tipos de inputs.
