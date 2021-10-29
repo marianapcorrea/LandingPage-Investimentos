@@ -7,7 +7,11 @@ body{
 header {
     background: #1a5711;
     height: 60px;
+    width: 100%;
     padding: 10px;
+    position: fixed;
+    top:0;
+    left: 0;
 } 
 
 .banner img {
@@ -24,6 +28,7 @@ header {
 
 .conteudo {
     margin: auto;
+    margin-top: 80px;
     height: 100%;
     overflow: hidden;
     display: flex;
@@ -107,9 +112,9 @@ header {
     font-weight: bolder;
 }
 
-#texto-complementar {
-    background: linear-gradient( #ffffffb5, #0f6d02);
-    height: 500px;
+.texto-complementar {
+    background: linear-gradient( #ffffffb5, #bebec3);
+    height: 400px;
 }
 
 hr {
@@ -122,4 +127,9 @@ hr {
 
 .texto-complementar article {
     margin: auto;
+}
+
+footer {
+    background:  #1a5711;
+    height: 100px;
 }
