@@ -20,7 +20,6 @@ header {
     font-weight: bold;
     font-family: 'Zen Antique', serif;
     font-size: 1em;
-    
 }
 
 .conteudo {
@@ -28,29 +27,27 @@ header {
     height: 100%;
     overflow: hidden;
     display: flex;
-    background: linear-gradient(#77777c , #ffffffb5), 
+    background: linear-gradient(#bebec3 , #ffffffb5), 
     url(imagens/background.png);
     background-position: center;
     background-size: contain;
     justify-content: center;
-    
 }
     
-.conteudo article{
+.conteudo article, .texto-complementar article{
     min-width: 200px;
     max-width: 600px;
     text-align: center;
     margin:  5%;
-    text-align: center;
     font-weight: bold;
 }
 
-.texto h2 {
+.texto h2, .texto-complementar h2 {
     color: #0f6d02;
     font-size: 2em;
 }
 
-.texto p {
+.texto p, .texto-complementar p {
     color: #0d4106;
 }
 
@@ -97,7 +94,7 @@ header {
 } 
 
 #contato{
-    color: #0dw4106;
+    color: #0d4106;
     text-align: start;
     padding-left: 40px;
     font-weight: bolder;
@@ -113,4 +110,16 @@ header {
 #texto-complementar {
     background: linear-gradient( #ffffffb5, #0f6d02);
     height: 500px;
+}
+
+hr {
+    width: 50%;
+    border: 2px solid #0f6d02;
+    border-radius: 20px;
+    margin: 80px auto;
+
+}
+
+.texto-complementar article {
+    margin: auto;
 }
