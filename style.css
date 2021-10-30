@@ -40,7 +40,7 @@ header {
 }
     
 .conteudo article, .texto-complementar article{
-    min-width: 200px;
+    min-width: 400px;
     max-width: 600px;
     text-align: center;
     margin:  5%;
@@ -112,6 +112,18 @@ header {
     font-weight: bolder;
 }
 
+.formulario input[type="submit"]:hover {
+    border: white solid 2px;
+    box-sizing: border-box;
+}
+
+.formulario input[type="submit"]:active {
+    background-color: white;
+    color: #0d4106;
+    border: #0d4106 solid 2px;
+    box-sizing: border-box;
+}
+
 .texto-complementar {
     background: linear-gradient( #ffffffb5, #bebec3);
     height: 400px;
@@ -128,6 +140,7 @@ hr {
 
 .texto-complementar article {
     margin: auto;
+    width: 50%;
 }
 
 footer {
@@ -153,4 +166,15 @@ footer p {
 strong {
     font-weight: bold;
     font-family: 'Zen Antique', serif;
+}
+
+@media screen and (max-width: 480px) {
+.conteudo {
+    display: grid;
+    align-items: center;
+}
+.formulario {
+    margin: 30px auto;
+    max-width: 80%;
+}
 }
