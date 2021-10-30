@@ -169,12 +169,36 @@ strong {
 }
 
 @media screen and (max-width: 480px) {
-.conteudo {
+.banner {
+    display: flex;
+    justify-content: center;
+}
+.conteudo  {
     display: grid;
     align-items: center;
 }
+
+.texto {
+    display: contents;
+
+}
+.texto h2, .texto-complementar h2 {
+    width: 300px;
+    font-size: 20px;
+}
+
+.texto p, .texto-complementar p {
+    width: 300px;
+    font-size: 12px;
+}
 .formulario {
     margin: 30px auto;
-    max-width: 80%;
+    width: 300px;
+}
+.texto-complementar {
+    height: 200px;
+}
+.texto-complementar article {
+    min-width: 0;
 }
 }
