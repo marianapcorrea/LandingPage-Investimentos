@@ -20,4 +20,5 @@ Criação de uma landingpage de uma empresa de investimentos ficticia, que seja 
 - Resposta do botão quando selecionado (:hover) e ativado (:action),
 - Fixação de cabeçãlho.
 
+
 -Status: **FINALIZADO**
