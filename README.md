@@ -18,7 +18,7 @@ Criação de uma landingpage de uma empresa de investimentos ficticia, que seja 
 - Combinação de imagem e gradiente para background, 
 - Responsividade da página para dispositivos móveis(elemento @media), 
 - Resposta do botão quando selecionado (:hover) e ativado (:action),
-- Fixação de cabeçãlho.
+- Fixação de cabeçalho.
 
 
 -Status: **FINALIZADO**
