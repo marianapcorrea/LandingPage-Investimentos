@@ -1,6 +1,6 @@
 Criação de uma landingpage responsiva de uma empresa de investimentos ficticia. 
 
-Para acessar o site, [clique aqui.](https://marianapcorrea.github.io/LandingPage-Investimentos/)
+Para acessar o site, <a href="https://marianapcorrea.github.io/LandingPage-Investimentos/" target="_blank">clique aqui.</a>
 
 -Atividades realizadas:
 **HTML**: 
