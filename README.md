@@ -1,4 +1,6 @@
-Criação de uma landingpage de uma empresa de investimentos ficticia, que seja responsiva. 
+Criação de uma landingpage responsiva de uma empresa de investimentos ficticia. 
+
+Para acessar o site, [clique aqui.](https://marianapcorrea.github.io/LandingPage-Investimentos/)
 
 -Atividades realizadas:
 **HTML**: 
