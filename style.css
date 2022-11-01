@@ -1,29 +1,32 @@
-body{
+body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    min-width: 600px;
-    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    min-width:420pc
+    font-size: 16px;
+    height: 100%;
 }
+
 header {
     background: #1a5711;
+    display:flex;
     height: 60px;
     width: 100%;
     padding: 10px;
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
-} 
+}
 
-.banner img {
+header img {
     height: 20px;
-    margin: 0 7px ;
-}   
+    margin-right: 7px;
+}
 
-.banner h1 {
+header h1 {
     color: white;
     font-weight: bold;
-    font-family: 'Zen Antique', serif;
-    font-size: 1em;
+    font-family: "Zen Antique", serif;
+    font-size: 1.25em;
 }
 
 .conteudo {
@@ -32,56 +35,71 @@ header {
     height: 100%;
     overflow: hidden;
     display: flex;
-    background: linear-gradient(#bebec3 , #ffffffb5), 
-    url(imagens/background.png);
+    flex-wrap: wrap;
+    background: linear-gradient(#bebec3, #ffffffb5), url(imagens/background.png);
     background-position: center;
     background-size: contain;
     justify-content: center;
 }
-    
-.conteudo article, .texto-complementar article{
+
+.conteudo article,
+.texto-complementar article {
     min-width: 400px;
     max-width: 600px;
     text-align: center;
-    margin:  5%;
+    margin: 5%;
     font-weight: bold;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.texto h2, .texto-complementar h2 {
+.texto h2,
+.texto-complementar h2 {
     color: #0f6d02;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
-.texto p, .texto-complementar p {
+.texto p,
+.texto-complementar p {
     color: #0d4106;
+    font-size: 1.25rem;
+    margin: 1rem;
 }
 
 .formulario {
     float: left;
     width: fit-content;
-    min-width: 250px;
-    max-width: 400px;
+    min-width: 400px;
+    max-width: 500px;
     height: fit-content;
     text-align: center;
     box-sizing: border-box;
     background: #a5bba2;
     border-radius: 15px;
-    border:#0d4106 solid 3px;
+    border: #0d4106 solid 3px;
     box-shadow: 7px 10px 10px #0d4106;
-    margin:  5% 40px;
+    margin: 5% 40px;
     padding: 20px 0;
 }
 
-.formulario input, .formulario select {
+.formulario input,
+.formulario select {
     width: 80%;
-    margin: 8px;
-    padding: 10px ;
+    margin: 12px;
+    padding: 10px;
     border-radius: 20px;
     border: transparent;
+    font-size: 1.25rem;
+    
 }
 
 .formulario select {
-    background-color: white; 
+    background-color: white;
+    font-weight: bold;
+    color: #0d4106;
+    font-size: 1.25rem;
+
 }
 
 .formulario label {
@@ -90,15 +108,20 @@ header {
     display: block;
     font-weight: bold;
     padding-top: 15px;
+    font-size: 1rem;
+
 }
 
-.checkbox input, .checkbox label{
+.checkbox input,
+.checkbox label {
     width: auto;
     display: inline;
     padding: 20px 0;
-} 
+    font-size: 1rem;
 
-#contato{
+}
+
+#contato {
     color: #0d4106;
     text-align: start;
     padding-left: 40px;
@@ -106,9 +129,9 @@ header {
 }
 
 .formulario input[type="submit"] {
-    background-color: #0d4106; 
+    background-color: #0d4106;
     color: white;
-    font-size: 16px;
+    font-size: 1.5rem;
     font-weight: bolder;
 }
 
@@ -125,7 +148,7 @@ header {
 }
 
 .texto-complementar {
-    background: linear-gradient( #ffffffb5, #bebec3);
+    background: linear-gradient(#ffffffb5, #bebec3);
     height: 400px;
 }
 
@@ -135,7 +158,6 @@ hr {
     border-top: 2px solid #0f6d02;
     border-radius: 20px;
     margin: 80px auto;
-
 }
 
 .texto-complementar article {
@@ -145,7 +167,7 @@ hr {
 
 footer {
     background: #1a5711;
-    height:fit-content;
+    height: fit-content;
     display: flow-root;
 }
 
@@ -165,40 +187,50 @@ footer p {
 
 strong {
     font-weight: bold;
-    font-family: 'Zen Antique', serif;
+    font-family: "Zen Antique", serif;
 }
 
-@media screen and (max-width: 480px) {
-.banner {
-    display: flex;
-    justify-content: center;
-}
-.conteudo  {
-    display: grid;
-    align-items: center;
-}
+@media screen and (max-width: 780px) {
+    header {
+        justify-content: center;
+    }
 
-.texto {
-    display: contents;
+    .conteudo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
 
-}
-.texto h2, .texto-complementar h2 {
-    width: 300px;
-    font-size: 20px;
-}
+    .texto {
+        display: contents;
+    }
+    .texto h2,
+    .texto-complementar h2 {
+        font-size: 2.25rem;
+        margin: 10px;
+    }
 
-.texto p, .texto-complementar p {
-    width: 300px;
-    font-size: 12px;
-}
-.formulario {
-    margin: 30px auto;
-    width: 300px;
-}
-.texto-complementar {
-    height: 200px;
-}
-.texto-complementar article {
-    min-width: 0;
-}
+    .texto p,
+    .texto-complementar p {
+        font-size: 1rem;
+        margin: 10px
+
+    }
+    .formulario {
+        margin: 20px 0;
+        width: 300px;
+    box-shadow: 0px 0px 0px #0d4106;
+
+    }
+
+    hr {
+        display: none;
+    }
+
+    .texto-complementar h2 {
+        margin-top:30px;
+        font-size:2rem;
+    }
 }
